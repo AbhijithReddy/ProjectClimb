@@ -38,4 +38,4 @@ dog_bone <- dog_bone %>%
                       set>0 & (trial_id>24&trial_id<=36 | trial_id>60&trial_id<=72 )~ "dog-bone")
   )
 # We're filtering just trials and the first trial in 0-back and 1-back, and first and second in 2-back
-trials_db <- dog_bone %>% filter(trialN>0)
+# trials_db <- dog_bone %>% filter(trialN>0)
